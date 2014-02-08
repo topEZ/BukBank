@@ -1,11 +1,5 @@
-<html>
-	<title>Welcome to BukBank</title>
-	<head>
-		<link rel="stylesheet" href="../css/bootstrap.css">
-		<link rel="stylesheet" href="../css/bootstrap-theme.css">
-		<script src="../js/bootstrap.js"></script>
-		<link rel="stylesheet" href="../css/prop.css">
-	</head>
+<?php include "header.php"; ?>
+<div class="wrapper">
 	<div align="center">My Account</div>
 	<div align="center">
 		<table class="table table-striped table-bordered table-condensed" >
@@ -39,4 +33,6 @@
 			</tbody>
 		</table>
 	</div>
+</div>
+<?php include "footer.php"; ?>
 </html>

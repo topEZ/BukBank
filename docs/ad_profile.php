@@ -1,4 +1,6 @@
-<html>
+<?php include "header.php"; ?>
+<div class="wrapper">
+
 	<head>
 		<link rel="stylesheet" href="../css/bootstrap.css">
 		<link rel="stylesheet" href="../css/bootstrap-theme.css">
@@ -31,4 +33,5 @@
 			</form>
 		</div>
 	</body>
+<?php include "footer.php"; ?>
 </html>

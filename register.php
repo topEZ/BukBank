@@ -16,11 +16,21 @@
 <table class="table table-striped table-bordered table-condensed">
 <form class="navbar-form navbar-left" role="search">
 	<div class="form-group wit">
+		<input type="text" class="form-control " placeholder="Full Name">
+		<br>
 		<input type="text" class="form-control " placeholder="Bits Id">
+		<br>
+		<input type="text" class="form-control " placeholder="Bits Email Id">
 		<br>
 		<input type="text" class="form-control " placeholder="Password">
 		<br>
-		<button type="submit" class="btn btn-default">Sign In for Book Bank</button>
+		<input type="text" class="form-control " placeholder="Hostel Name">
+		<br>
+		<input type="text" class="form-control " placeholder="Room Number">
+		<br>
+		<input type="text" class="form-control " placeholder="Contact Number">
+		<br>
+		<button type="submit" class="btn btn-default">Sign Up for Book Bank</button>
 	</div>
 </form>
 </table>

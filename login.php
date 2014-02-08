@@ -1,3 +1,4 @@
+<?php include "header.php"; ?>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -25,3 +26,4 @@
 </form>
 </table>
 </body>
+<?php include "footer.php"; ?>

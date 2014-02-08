@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+		overflow: hidden;
+}
+
+.top-panel{
+	height: 50px;
+	background: linear-gradient(rgba(99,64,86,0.5), rgba(197, 176, 189, 0.7));
+	width:100%;
+}
+
+.bits-logo{
+	background: url('../images/bits_logo.png') no-repeat;
+	float: left;
+	width: 150px;
+	height: 55px;
+	opacity: 1;
+	background-size: 100% 100%;
+}
+.login-dd{
+	float:right;
+	margin-top: 10px;
+	margin-right: 75px;
+}
+.dd_{
+
+	height: 20px !important;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -105px; /* the bottom margin is the negative value of the footer's height */
+	overflow: hidden;
+}
+.footer, .push {
+	height: 55px; /* .push must be the same height as .footer */
+	background: linear-gradient(rgba(99,64,86,0.5), rgba(197, 176, 189, 0.7));
+	padding-top: 20px;
+}

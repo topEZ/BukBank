@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../css/login.css">
 <script src="../js/bootstrap.min.js"></script>
 <body class="wil">
+	<div class="wrapper">
 <div class="btn-group wik">
   <button type="button" class="btn btn-default">Student Login</button>
   <button type="button" class="btn btn-default">Admin Login</button>
@@ -25,5 +26,6 @@
 	</div>
 </form>
 </table>
+</div>
 </body>
 <?php include "footer.php"; ?>

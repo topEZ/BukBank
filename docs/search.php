@@ -2,48 +2,83 @@
 <body> 
 		<div class="wrapper">
 		<div align="center">Welcome to BukBank Search</div>
-		<div class="btn-group wik">
-  <button type="button" class="btn btn-default"><a href="ad_profile.php" target="_blank">Add Books</a></button>
-  <button type="button" class="btn btn-default"><a href="issue.php" target="_blank">Issue Books</a></button>
-  <button type="button" class="btn btn-default"><a href="submit.php" target="_blank">Submit Books</a></button>
-  <button type="button" class="btn btn-default"><a href="search.php" target="_blank">Search</a></button>
-</div>
+		<ul class="nav nav-tabs">
+  <li ><a href="ad_profile.php">Add Books</a></li>
+  <li><a href="issue.php">Issue Books</a></li>
+  <li><a href="submit.php">Submit Books</a></li>
+   <li class="active"><a href="search.php">Search</a></li>
+</ul>
 <div id="add_buk" class="add_buk">
-		<form class="navbar-form " role="search">
-	<div class="form-group wit">
-		<div class="form_elem">
-		<span class="label label-default">Title&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Title">
-		</div>
-		<br>
-		<div class="form_elem">
-		<span class="label label-default">Author&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Author">
-		</div>
-		<br>
-		<div class="form_elem">
-		<span class="label label-default">Book ID:</span>
-		<input type="text" class="form-control " placeholder="Book ID">
-		</div>
-		<br>
-		<div class="form_elem">
-		<span class="label label-default">ISBN&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book ISBN">
-		</div>
-		<br>
-		<div class="form_elem">
-		<span class="label label-default">Price&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book's Price">
-		</div>
-		<br>
-		<div class="form_elem">
-		<span class="label label-default">Quantity:</span>
-		<input type="text" class="form-control " placeholder="No. of Copies">
-		</div>
-		<br>
-		<button type="submit" class="btn btn-default">Add Book</button>
-	</div>
-	</form>
+	<div class="input-group" style="width:300px;">
+  <input type="text" class="form-control">
+  <div class="input-group-btn">
+   <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+  </div>
+</div>
+<br><br>
+	<div class="panel panel-success">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Search Results</div>
+  <div class="panel-body">
+    <p></p>
+  </div>
+
+  <!-- Table -->
+      <table class="table table-hover" style="width:100%;">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Book Title</th>
+            <th>Book Author</th>
+            <th>ISBN</th>
+            <th>Available</th>
+            <th>Issued</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td >1</td>
+            <td>Java</td>
+            <td>John</td>
+            <td>1729345</td>
+            <td>12</td>
+            <td>4</td>
+            <td><a href="#">Edit<a></td>
+          </tr>
+           <tr>
+            <td >2</td>
+            <td>C++</td>
+            <td>Smith Dyer</td>
+            <td>2529345</td>
+            <td>4</td>
+            <td>8</td>
+            <td><a href="#">Edit<a></td>
+          </tr>
+          <tr>
+            <td >3</td>
+            <td>Analog Electronics</td>
+            <td>Cooper D.L</td>
+            <td>2584345</td>
+            <td>3</td>
+            <td>1</td>
+            <td><a href="#">Edit<a></td>
+          </tr>
+        </tbody>
+      </table>
+    
+</div>	
 </div>
 
 	</div>

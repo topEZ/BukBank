@@ -2,12 +2,12 @@
 <body> 
 		<div class="wrapper">
 		<div align="center">Welcome to BukBank Search</div>
-		<div class="btn-group wik">
- <button type="button" class="btn btn-default"><a href="ad_profile.php" target="_blank">Add Books</a></button>
-  <button type="button" class="btn btn-default"><a href="issue.php" target="_blank">Issue Books</a></button>
-  <button type="button" class="btn btn-default"><a href="submit.php" target="_blank">Submit Books</a></button>
-  <button type="button" class="btn btn-default"><a href="search.php" target="_blank">Search</a></button>
-</div>
+		<ul class="nav nav-tabs">
+  <li class="active"><a href="ad_profile.php">Add Books</a></li>
+  <li><a href="issue.php">Issue Books</a></li>
+  <li><a href="submit.php">Submit Books</a></li>
+   <li ><a href="search.php">Search</a></li>
+</ul>
 <div id="add_buk" class="add_buk">
 		<form class="navbar-form " role="search">
 	<div class="form-group wit">

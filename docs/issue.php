@@ -12,36 +12,42 @@
 		<form class="navbar-form " role="search">
 	<div class="form-group wit">
 		<div class="form_elem">
-		<span class="label label-default">Title&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Title">
+		<span class="label label-default">SID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
+		<input type="text" class="form-control " placeholder="Student's ID">
 		</div>
 		<br>
 		<div class="form_elem">
-		<span class="label label-default">Author&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Author">
+		<span class="label label-default">SName&nbsp:</span>
+		<label>Student Name Appears Here</label>
 		</div>
 		<br>
 		<div class="form_elem">
-		<span class="label label-default">Book ID:</span>
-		<input type="text" class="form-control " placeholder="Book ID">
+		<span class="label label-default">Hostel :</span>
+		<label>Hostel & Room No. Appears Here</label>
 		</div>
 		<br>
 		<div class="form_elem">
-		<span class="label label-default">ISBN&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book ISBN">
+		<span class="label label-default">Ph No. :</span>
+		<label>Contact No. Appears Here</label>
 		</div>
 		<br>
 		<div class="form_elem">
-		<span class="label label-default">Price&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book's Price">
+		<span class="label label-default">e-mail :</span>
+		<label>email ID Appears Here</label>
 		</div>
 		<br>
 		<div class="form_elem">
-		<span class="label label-default">Quantity:</span>
-		<input type="text" class="form-control " placeholder="No. of Copies">
+		<span class="label label-default">ISBN &nbsp&nbsp&nbsp:</span>
+		<input type="text" class="form-control " placeholder="Book's ISBN">
 		</div>
 		<br>
-		<button type="submit" class="btn btn-default">Add Book</button>
+		<div class="form_elem">
+		<span class="label label-default">BID &nbsp&nbsp&nbsp:</span>
+		<input type="text" class="form-control " placeholder="Book's ID">
+		</div>
+		<br>
+		<button type="submit" class="btn btn-default">Issue Next Book</button>
+		<button type="submit" class="btn btn-default">Finish Issue</button>
 	</div>
 	</form>
 </div>

@@ -3,7 +3,7 @@
 		<div class="wrapper">
 		<div align="center">Welcome to BukBank Search</div>
 		<div class="btn-group wik">
- <button type="button" class="btn btn-default"><a href="ad_profile.php" target="_blank">Add Books</a></button>
+  <button type="button" class="btn btn-default"><a href="ad_profile.php" target="_blank">Add Books</a></button>
   <button type="button" class="btn btn-default"><a href="issue.php" target="_blank">Issue Books</a></button>
   <button type="button" class="btn btn-default"><a href="submit.php" target="_blank">Submit Books</a></button>
   <button type="button" class="btn btn-default"><a href="search.php" target="_blank">Search</a></button>

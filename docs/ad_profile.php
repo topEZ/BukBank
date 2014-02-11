@@ -9,36 +9,36 @@
    <li ><a href="search.php">Search</a></li>
 </ul>
 <div id="add_buk" class="add_buk">
-		<form class="navbar-form " role="search">
+		<form action = "add_process.php" method="POST" class="navbar-form " role="search">
 	<div class="form-group wit">
 		<div class="form_elem">
 		<span class="label label-default">Title&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Title">
+		<input type="text" class="form-control " name="B_Title"placeholder="Book Title">
 		</div>
 		<br>
 		<div class="form_elem">
 		<span class="label label-default">Author&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book Author">
+		<input type="text" class="form-control " name="B_Author" placeholder="Book Author">
 		</div>
 		<br>
 		<div class="form_elem">
 		<span class="label label-default">Book ID:</span>
-		<input type="text" class="form-control " placeholder="Book ID">
+		<input type="text" class="form-control " name="B_ID" placeholder="Book ID">
 		</div>
 		<br>
 		<div class="form_elem">
 		<span class="label label-default">ISBN&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book ISBN">
+		<input type="text" class="form-control " name="B_ISBN" placeholder="Book ISBN">
 		</div>
 		<br>
 		<div class="form_elem">
 		<span class="label label-default">Price&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Book's Price">
+		<input type="text" class="form-control " name="B_Price" placeholder="Book's Price">
 		</div>
 		<br>
 		<div class="form_elem">
 		<span class="label label-default">Quantity:</span>
-		<input type="text" class="form-control " placeholder="No. of Copies">
+		<input type="text" class="form-control " name="B_copies" placeholder="No. of Copies">
 		</div>
 		<br>
 		<button type="submit" class="btn btn-default">Add Book</button>

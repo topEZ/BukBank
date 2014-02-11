@@ -14,21 +14,21 @@
   <button type="button" class="btn btn-default"><a href="register.php">Register</a></button>
 </div>
 <table class="table table-striped table-bordered table-condensed">
-<form class="navbar-form navbar-left" role="search">
+<form action="register_process.php" method="POST" class="navbar-form navbar-left" role="search">
 	<div class="form-group wit">
-		<input type="text" class="form-control " placeholder="Full Name">
+		<input type="text" class="form-control " name="S_name" placeholder="Full Name">
 		<br>
-		<input type="text" class="form-control " placeholder="Bits Id">
+		<input type="text" class="form-control " name="S_id" placeholder="Bits Id">
 		<br>
-		<input type="text" class="form-control " placeholder="Bits Email Id">
+		<input type="text" class="form-control " name="S_email" placeholder="Bits Email Id">
 		<br>
-		<input type="text" class="form-control " placeholder="Password">
+		<input type="text" class="form-control " name="S_pass" placeholder="Password">
 		<br>
-		<input type="text" class="form-control " placeholder="Hostel Name">
+		<input type="text" class="form-control " name="S_hostel" placeholder="Hostel Name">
 		<br>
-		<input type="text" class="form-control " placeholder="Room Number">
+		<input type="text" class="form-control " name="S_room" placeholder="Room Number">
 		<br>
-		<input type="text" class="form-control " placeholder="Contact Number">
+		<input type="text" class="form-control " name="S_contact" placeholder="Contact Number">
 		<br>
 		<button type="submit" class="btn btn-default">Sign Up for Book Bank</button>
 	</div>

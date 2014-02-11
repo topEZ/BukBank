@@ -9,11 +9,11 @@
    <li ><a href="search.php">Search</a></li>
 </ul>
 <div id="add_buk" class="add_buk">
-		<form class="navbar-form " role="search">
+		<form action="submit_process.php" method="POST" class="navbar-form " role="search">
 	<div class="form-group wit">
 		<div class="form_elem">
 		<span class="label label-default">SID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</span>
-		<input type="text" class="form-control " placeholder="Student's ID">
+		<input type="text" class="form-control " name="S_id" placeholder="Student's ID">
 		</div>
 		<br>
 		<div class="form_elem">
